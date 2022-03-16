@@ -1,0 +1,6 @@
+.idea
+go.sum
+/logs
+/deploy
+fitness-chart.png
+ci-f6-implementation.exe
