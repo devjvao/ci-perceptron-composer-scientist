@@ -3,7 +3,10 @@ package log
 import (
 	"github.com/mattn/go-colorable"
 	"github.com/sirupsen/logrus"
+	"strings"
 )
+
+var Separator = strings.Repeat("=", 100)
 
 // InitLog formats the log
 func InitLog(level logrus.Level) {
